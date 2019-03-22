@@ -1,0 +1,25 @@
+{
+    "name": "magic42/module-prevent-head-404-cache",
+    "description": "Magento2 module to stop 404 HEAD requests from being cached",
+    "type": "magento2-module",
+    "license": [
+        "proprietary"
+    ],
+    "authors":[
+        {
+            "name":"magic42",
+            "email":"hello@magic42.co.uk"
+        }
+    ],
+    "require": {
+      "magento/framework": "102.0.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magic42\\PreventHead404Cache\\": ""
+        }
+    }
+}
